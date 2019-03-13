@@ -25,7 +25,8 @@ def MapDrawer():
     while i < len(PacMap):
         print(PacMap[i][1], end = " ")
         if (i % 10) == 9:
-            print("\n")        
+          print("\n")
+          break
         i = i + 1
     time.sleep(0.5)
 
