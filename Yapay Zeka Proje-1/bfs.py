@@ -65,6 +65,7 @@ def PacFinder(x,y):
                         PacMap[y][1] = " "
                         PacMap[x][1] = "C"
                         MapDrawer()
+                        break
                     y = y + 1
             x = x + 1
             y = 0
